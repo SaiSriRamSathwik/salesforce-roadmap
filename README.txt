@@ -1,14 +1,19 @@
-SALESFORCE ROADMAP 60 — iPHONE SETUP
+SALESFORCE ROADMAP 60 — LIGHT THEME iPHONE APP
 
-Files:
-- index.html: complete app and all 60 days / 240 original targets
-- manifest.webmanifest and sw.js: PWA support for hosting
+Includes:
+- 60 days and 240 original roadmap targets
+- Editable start and end time for each daily target (default schedule: 9 AM–4 PM)
+- Edit task text
+- Add personal tasks
+- Daily completion, overall progress and streak tracking
+- Light theme and responsive iPhone layout
+- Local browser storage
 
-To use on iPhone:
-1. Host this folder on an HTTPS static host (for example GitHub Pages or Netlify).
-2. Open the hosted URL in Safari on your iPhone.
-3. Tap Share -> Add to Home Screen -> Add.
-4. Open the new Home Screen icon. Your checkboxes and custom tasks save in this browser on this device.
+iPhone setup:
+1. Upload index.html, manifest.webmanifest and sw.js to the root of your GitHub repository.
+2. Commit the files.
+3. GitHub repository Settings > Pages > Deploy from a branch > main > /(root) > Save.
+4. Open the published HTTPS URL in Safari.
+5. Share > Add to Home Screen.
 
-Progress is stored locally. It does not sync between devices. The app does not currently send reminders while closed.
-The schedule is preassigned from 2 Nov 2026 through 31 Dec 2026.
+Progress and edits are stored locally on the device/browser. No cloud sync or background push notifications are included.
